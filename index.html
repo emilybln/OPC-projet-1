@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="styles.css" rel="stylesheet">
+  <link href="fonts/Roboto-Regular.ttf" rel="stylesheet">
+  <link href="fonts/fontawesome-webfont.woff" rel="stylesheet">
+  <title>WebAgency</title>
+
+</head>
+
+<body>
+
+<section id="navbar">
+  <div id="navbar_content">
+    <a href="/index.html" id="logo"><img height="57" src="webagency_images/logo.png" width="260"/></a>
+    <nav>
+      <a href="#slider" id="selected">Accueil</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Portfolio</a>
+      <a href="#map">Contact</a>
+    </nav>
+    <div class="hidden">
+      <div id="menuToggle">
+        <input type="checkbox"/>
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <ul id="menu">
+          <a href="#slider">
+            <li>Accueil</li>
+          </a>
+          <a href="#services">
+            <li>Services</li>
+          </a>
+          <a href="#projects">
+            <li>Portfolio</li>
+          </a>
+          <a href="#map">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section id="slider">
+
+  <div id="arrows">
+    <div id="back_arrow">
+      <a href=""> <i class="fas fa-chevron-left"></i></a>
+    </div>
+    <div id="next_arrow">
+      <a href=""> <i class="fas fa-chevron-right"></i></a>
+    </div>
+  </div>
+
+  <div id="content_slider">
+    <div class="wrapper">
+      <p id="title_slider"><span>Webagency</span>: l'agence de tous vos projets</p>
+      <p id="subtitle_slider">Vous avez un projet web ? La WebAgency vous aide à le réaliser.</p>
+      <button class="btn_style" type="button">Plus d'infos</button>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrapper">
+    <div class="intro_section">
+      <h1>NOS SERVICES</h1>
+      <div class="separator">
+        <div class="small_blue_circle"></div>
+        <div class="line"></div>
+      </div>
+      <p>Nous vous aidons à imaginer, concevoir et réaliser votre produit.<br>Notre objectif ? Concevoir des
+        expériences.</p>
+    </div>
+
+    <div class="img_list">
+      <img height="319" src="webagency_images/main-feature.png" width="510"/>
+      <div class="list">
+        <div class="element">
+          <div class="icon">
+            <div class="combined_circles">
+              <div class="small_circle"></div>
+              <div class="grey_circle">
+                <i class="fas fa-chart-line"></i>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="title_service">UX design</p>
+            <p>Benchmark. Users feedback. Design thinking. Workshop. Idéation. Sketch. Wireframes. Tests
+              utilisateurs.</p>
+          </div>
+        </div>
+
+        <div class="element">
+          <div class="icon">
+            <div class="combined_circles">
+              <div class="small_circle"></div>
+              <div class="grey_circle">
+                <i class="fas fa-cubes"></i>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="title_service">UI design</p>
+            <p>Mood board. Prodcut design. Maquettes. Style guide. Design system. Interactive design. Icons.</p>
+          </div>
+        </div>
+
+        <div class="element">
+          <div class="icon">
+            <div class="combined_circles">
+              <div class="small_circle"></div>
+              <div class="grey_circle">
+                <i class="fas fa-chart-pie"></i>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="title_service">SEO</p>
+            <p>Audit. Copy writing. Page ranking. Netlinking. Référencement vidéo. Référencelent mobile. SEO local. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrapper">
+    <div class="intro_section">
+      <h1>NOS PROJETS</h1>
+      <div class="separator">
+        <div class="small_blue_circle"></div>
+        <div class="line"></div>
+      </div>
+      <p>Découvrez nos derniers projets, concepts et réalisations.</p>
+    </div>
+
+    <div class="tabs">
+      <ul id="tab_list">
+        <li class="active"><a href="#">Tous les projets</a></li>
+        <li><a href="#">Création</a></li>
+        <li><a href="#">Corporate</a></li>
+        <li><a href="#">Folio</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="projects_thumbnails">
+    <div class="img_project">
+      <img src="webagency_images/portfolio/01.jpg" alt="image_projet_1"/>
+      <div class="project_hover">
+        <div class="text_hover">
+          <p class="title_thumbnails">Projet 1</p>
+          <p class="text_thumbnails">En savoir plus</p>
+        </div>
+        <div class="position_icon">
+          <div class="blue_circle">
+            <i class="fas fa-eye"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="img_project">
+      <img src="webagency_images/portfolio/02.jpg"/>
+      <div class="project_hover">
+        <div class="text_hover">
+          <p class="title_thumbnails">Projet 2</p>
+          <p class="text_thumbnails">En savoir plus</p>
+        </div>
+        <div class="position_icon">
+          <div class="blue_circle">
+            <i class="fas fa-eye"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="img_project">
+      <img src="webagency_images/portfolio/03.jpg"/>
+      <div class="project_hover">
+        <div class="text_hover">
+          <p class="title_thumbnails">Projet 3</p>
+          <p class="text_thumbnails">En savoir plus</p>
+        </div>
+        <div class="position_icon">
+          <div class="blue_circle">
+            <i class="fas fa-eye"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="img_project">
+      <img src="webagency_images/portfolio/04.jpg"/>
+      <div class="project_hover">
+        <div class="text_hover">
+          <p class="title_thumbnails">Projet 4</p>
+          <p class="text_thumbnails">En savoir plus</p>
+        </div>
+        <div class="position_icon">
+          <div class="blue_circle">
+            <i class="fas fa-eye"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="img_project">
+      <img src="webagency_images/portfolio/05.jpg"/>
+      <div class="project_hover">
+        <div class="text_hover">
+          <p class="title_thumbnails">Projet 5</p>
+          <p class="text_thumbnails">En savoir plus</p>
+        </div>
+        <div class="position_icon">
+          <div class="blue_circle">
+            <i class="fas fa-eye"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="img_project">
+      <img src="webagency_images/portfolio/06.jpg"/>
+      <div class="project_hover">
+        <div class="text_hover">
+          <p class="title_thumbnails">Projet 6</p>
+          <p class="text_thumbnails">TEn savoir plus</p>
+        </div>
+        <div class="position_icon">
+          <div class="blue_circle">
+            <i class="fas fa-eye"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="img_project">
+      <img src="webagency_images/portfolio/07.jpg"/>
+      <div class="project_hover">
+        <div class="text_hover">
+          <p class="title_thumbnails">Projet 7</p>
+          <p class="text_thumbnails">En savoir plus</p>
+        </div>
+        <div class="position_icon">
+          <div class="blue_circle">
+            <i class="fas fa-eye"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="img_project">
+      <img src="webagency_images/portfolio/08.jpg"/>
+      <div class="project_hover">
+        <div class="text_hover">
+          <p class="title_thumbnails">Projet 8</p>
+          <p class="text_thumbnails">En savoir plus</p>
+        </div>
+        <div class="position_icon">
+          <div class="blue_circle">
+            <i class="fas fa-eye"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<section id="map">
+  <iframe allowfullscreen=""
+          frameborder="0" height="600"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.22160968072!2d2.3476369155499897!3d48.873051779288915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25%20Rue%20d&#39;Hauteville%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1574688313239!5m2!1sfr!2sfr"
+          style="border:0;" width="100%">
+  </iframe>
+
+  <div id="contact_info">
+    <div class="wrapper">
+      <form action="" method="post">
+        <div>
+          <h2>Contact info</h2>
+          <span>WebAgency SAS</span>
+          <p>25 rue d'Hauteville 75010 Paris</p>
+          <p>Tel: 01 02 03 04 05</p>
+        </div>
+
+        <div>
+          <input id="name" placeholder="Nom" type="text">
+        </div>
+        <div>
+          <input id="mail" placeholder="Email" type="email">
+        </div>
+        <div>
+          <input id="subject" placeholder="Objet" type="text">
+        </div>
+        <div>
+          <textarea id="msg" name="user_message" placeholder="Message"></textarea>
+        </div>
+        <button class="btn_style" type="button">Envoyer</button>
+      </form>
+    </div>
+
+
+  </div>
+
+</section>
+
+
+</body>
+
+</html>
+
