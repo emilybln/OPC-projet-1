@@ -21,19 +21,34 @@
       <a href="#projects">Portfolio</a>
       <a href="#map">Contact</a>
     </nav>
-  </div>
+    <div class="hidden">
+      <div id="menuToggle">
+        <input type="checkbox"/>
+        <span></span>
+        <span></span>
+        <span></span>
 
-  <div class="hidden">
-    <div class="burger_menu">
-      <i class="fas fa-bars"></i>
+        <ul id="menu">
+          <a href="#slider">
+            <li>Accueil</li>
+          </a>
+          <a href="#services">
+            <li>Services</li>
+          </a>
+          <a href="#projects">
+            <li>Portfolio</li>
+          </a>
+          <a href="#map">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </div>
     </div>
   </div>
+
 </section>
 
 <section id="slider">
-  <figure>
-    <img alt="illustration_agence" id="slider_img_1" src="webagency_images/slider/bg1.jpg"/>
-  </figure>
 
   <div id="arrows">
     <div id="back_arrow">
@@ -118,7 +133,7 @@
   </div>
 </section>
 
-<section class="projects">
+<section id="projects">
   <div class="wrapper">
     <div class="intro_section">
       <h1>NOS PROJETS</h1>
@@ -131,8 +146,8 @@
 
     <div class="tabs">
       <ul id="tab_list">
-        <li class="active"><a href="#">All Works</a></li>
-        <li><a href="#">Creative</a></li>
+        <li class="active"><a href="#">Tous les projets</a></li>
+        <li><a href="#">Création</a></li>
         <li><a href="#">Corporate</a></li>
         <li><a href="#">Folio</a></li>
       </ul>
@@ -144,8 +159,8 @@
       <img src="webagency_images/portfolio/01.jpg" alt="image_projet_1"/>
       <div class="project_hover">
         <div class="text_hover">
-          <p class="title_thumbnails">Titre Projet</p>
-          <p class="text_thumbnails">Texte du projet</p>
+          <p class="title_thumbnails">Projet 1</p>
+          <p class="text_thumbnails">En savoir plus</p>
         </div>
         <div class="position_icon">
           <div class="blue_circle">
@@ -159,8 +174,8 @@
       <img src="webagency_images/portfolio/02.jpg"/>
       <div class="project_hover">
         <div class="text_hover">
-          <p class="title_thumbnails">Titre Projet</p>
-          <p class="text_thumbnails">Texte du projet</p>
+          <p class="title_thumbnails">Projet 2</p>
+          <p class="text_thumbnails">En savoir plus</p>
         </div>
         <div class="position_icon">
           <div class="blue_circle">
@@ -174,8 +189,8 @@
       <img src="webagency_images/portfolio/03.jpg"/>
       <div class="project_hover">
         <div class="text_hover">
-          <p class="title_thumbnails">Titre Projet</p>
-          <p class="text_thumbnails">Texte du projet</p>
+          <p class="title_thumbnails">Projet 3</p>
+          <p class="text_thumbnails">En savoir plus</p>
         </div>
         <div class="position_icon">
           <div class="blue_circle">
@@ -189,8 +204,8 @@
       <img src="webagency_images/portfolio/04.jpg"/>
       <div class="project_hover">
         <div class="text_hover">
-          <p class="title_thumbnails">Titre Projet</p>
-          <p class="text_thumbnails">Texte du projet</p>
+          <p class="title_thumbnails">Projet 4</p>
+          <p class="text_thumbnails">En savoir plus</p>
         </div>
         <div class="position_icon">
           <div class="blue_circle">
@@ -204,8 +219,8 @@
       <img src="webagency_images/portfolio/05.jpg"/>
       <div class="project_hover">
         <div class="text_hover">
-          <p class="title_thumbnails">Titre Projet</p>
-          <p class="text_thumbnails">Texte du projet</p>
+          <p class="title_thumbnails">Projet 5</p>
+          <p class="text_thumbnails">En savoir plus</p>
         </div>
         <div class="position_icon">
           <div class="blue_circle">
@@ -219,8 +234,8 @@
       <img src="webagency_images/portfolio/06.jpg"/>
       <div class="project_hover">
         <div class="text_hover">
-          <p class="title_thumbnails">Titre Projet</p>
-          <p class="text_thumbnails">Texte du projet</p>
+          <p class="title_thumbnails">Projet 6</p>
+          <p class="text_thumbnails">TEn savoir plus</p>
         </div>
         <div class="position_icon">
           <div class="blue_circle">
@@ -234,8 +249,8 @@
       <img src="webagency_images/portfolio/07.jpg"/>
       <div class="project_hover">
         <div class="text_hover">
-          <p class="title_thumbnails">Titre Projet</p>
-          <p class="text_thumbnails">Texte du projet</p>
+          <p class="title_thumbnails">Projet 7</p>
+          <p class="text_thumbnails">En savoir plus</p>
         </div>
         <div class="position_icon">
           <div class="blue_circle">
@@ -249,8 +264,8 @@
       <img src="webagency_images/portfolio/08.jpg"/>
       <div class="project_hover">
         <div class="text_hover">
-          <p class="title_thumbnails">Titre Projet</p>
-          <p class="text_thumbnails">Texte du projet</p>
+          <p class="title_thumbnails">Projet 8</p>
+          <p class="text_thumbnails">En savoir plus</p>
         </div>
         <div class="position_icon">
           <div class="blue_circle">
@@ -282,18 +297,18 @@
         </div>
 
         <div>
-          <input id="name" placeholder="Name" type="text">
+          <input id="name" placeholder="Nom" type="text">
         </div>
         <div>
           <input id="mail" placeholder="Email" type="email">
         </div>
         <div>
-          <input id="subject" placeholder="Subject" type="text">
+          <input id="subject" placeholder="Objet" type="text">
         </div>
         <div>
           <textarea id="msg" name="user_message" placeholder="Message"></textarea>
         </div>
-        <button class="btn_style" type="button">Send message</button>
+        <button class="btn_style" type="button">Envoyer</button>
       </form>
     </div>
 
