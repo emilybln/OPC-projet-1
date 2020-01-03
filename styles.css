@@ -490,19 +490,19 @@ nav a:hover {
   padding-top: 120px;
 }
 
+@media screen and (max-device-width: 425px) {
+  #services {
+    padding: 120px 0 60px;
+    width: 100%;
+  }
+}
+
 @media screen and (max-device-width: 768px) {
   #services {
     padding: 80px 0 80px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-  }
-}
-
-@media screen and (max-device-width: 425px) {
-  #services {
-    padding: 120px 0 60px;
-    width: 100%;
   }
 }
 
